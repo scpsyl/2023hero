@@ -165,3 +165,11 @@
 * 包含文件：`User_TOF.c/h`，`nlink_tofsense_frame0.c/h`，`nlink_utils.c/h`
 
 ### SK80测距模块
+
+* **说明**：
+
+  * 包含在`./SK80`目录下
+  
+  * 封装测距模块SK80的通信协议，并引出初始化和获取信息的接口
+
+* 包含文件：`User_Laser.c/h`,`User_UART.c/h`
