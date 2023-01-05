@@ -87,16 +87,12 @@ void Task_Beep_Callback()
 void os_BeepCallback(void const *argument)
 {
 	// ·äÃùÆ÷²¥·ÅÆô¶¯Éù [do mi so do(Éý)]
-	Beep_PlayNotes((Note[]){{T_M1, D_Sixteenth},
-							{T_M2, D_Sixteenth},
-							{T_M3, D_Sixteenth},
+	Beep_PlayNotes((Note[]){{T_M2, D_Sixteenth},
 							{T_M4, D_Sixteenth},
-							{T_M5, D_Sixteenth},
 							{T_M6, D_Sixteenth},
-							{T_M7, D_Sixteenth},
-							{T_H1, D_Sixteenth},
+							{T_H2, D_Sixteenth},
 							{T_None, D_Quarter}},
-				   8);
+				   5);
 	for (;;)
 	{
 		Task_Beep_Callback();

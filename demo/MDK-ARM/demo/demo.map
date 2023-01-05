@@ -5186,33 +5186,33 @@ Image Symbol Table
     .constdata                               0x0801022c   Section       16  system_stm32f4xx.o(.constdata)
     .constdata                               0x0801023c   Section        8  system_stm32f4xx.o(.constdata)
     .constdata                               0x08010244   Section      768  crc.o(.constdata)
-    .constdata                               0x08010544   Section       36  beep.o(.constdata)
-    .constdata                               0x08010568   Section       18  bmi088driver.o(.constdata)
-    write_BMI088_ACCEL_self_test_Reg_Data_Error 0x08010568   Data          18  bmi088driver.o(.constdata)
-    .constdata                               0x0801057a   Section       12  ist8310driver.o(.constdata)
-    ist8310_write_reg_data_error             0x0801057a   Data          12  ist8310driver.o(.constdata)
-    .constdata                               0x08010588   Section       12  shooter.o(.constdata)
-    .constdata                               0x08010594   Section       12  ahrs.o(.constdata)
-    .constdata                               0x080105a0   Section       17  __printf_flags_wp.o(.constdata)
-    maptable                                 0x080105a0   Data          17  __printf_flags_wp.o(.constdata)
-    .constdata                               0x080105b8   Section       80  acos.o(.constdata)
-    pS                                       0x080105b8   Data          48  acos.o(.constdata)
-    qS                                       0x080105e8   Data          32  acos.o(.constdata)
-    .constdata                               0x08010608   Section      136  pow.o(.constdata)
-    bp                                       0x08010608   Data          16  pow.o(.constdata)
-    dp_h                                     0x08010618   Data          16  pow.o(.constdata)
-    dp_l                                     0x08010628   Data          16  pow.o(.constdata)
-    L                                        0x08010638   Data          48  pow.o(.constdata)
-    P                                        0x08010668   Data          40  pow.o(.constdata)
-    .constdata                               0x08010690   Section       48  cos_i.o(.constdata)
-    C                                        0x08010690   Data          48  cos_i.o(.constdata)
-    .constdata                               0x080106c0   Section        8  qnan.o(.constdata)
-    .constdata                               0x080106c8   Section      200  rred.o(.constdata)
-    pio2s                                    0x080106c8   Data          48  rred.o(.constdata)
-    twooverpi                                0x080106f8   Data         152  rred.o(.constdata)
-    .constdata                               0x08010790   Section       40  sin_i.o(.constdata)
-    S                                        0x08010790   Data          40  sin_i.o(.constdata)
-    .conststring                             0x080107b8   Section      160  freertos.o(.conststring)
+    .constdata                               0x08010544   Section       20  beep.o(.constdata)
+    .constdata                               0x08010558   Section       18  bmi088driver.o(.constdata)
+    write_BMI088_ACCEL_self_test_Reg_Data_Error 0x08010558   Data          18  bmi088driver.o(.constdata)
+    .constdata                               0x0801056a   Section       12  ist8310driver.o(.constdata)
+    ist8310_write_reg_data_error             0x0801056a   Data          12  ist8310driver.o(.constdata)
+    .constdata                               0x08010578   Section       12  shooter.o(.constdata)
+    .constdata                               0x08010584   Section       12  ahrs.o(.constdata)
+    .constdata                               0x08010590   Section       17  __printf_flags_wp.o(.constdata)
+    maptable                                 0x08010590   Data          17  __printf_flags_wp.o(.constdata)
+    .constdata                               0x080105a8   Section       80  acos.o(.constdata)
+    pS                                       0x080105a8   Data          48  acos.o(.constdata)
+    qS                                       0x080105d8   Data          32  acos.o(.constdata)
+    .constdata                               0x080105f8   Section      136  pow.o(.constdata)
+    bp                                       0x080105f8   Data          16  pow.o(.constdata)
+    dp_h                                     0x08010608   Data          16  pow.o(.constdata)
+    dp_l                                     0x08010618   Data          16  pow.o(.constdata)
+    L                                        0x08010628   Data          48  pow.o(.constdata)
+    P                                        0x08010658   Data          40  pow.o(.constdata)
+    .constdata                               0x08010680   Section       48  cos_i.o(.constdata)
+    C                                        0x08010680   Data          48  cos_i.o(.constdata)
+    .constdata                               0x080106b0   Section        8  qnan.o(.constdata)
+    .constdata                               0x080106b8   Section      200  rred.o(.constdata)
+    pio2s                                    0x080106b8   Data          48  rred.o(.constdata)
+    twooverpi                                0x080106e8   Data         152  rred.o(.constdata)
+    .constdata                               0x08010780   Section       40  sin_i.o(.constdata)
+    S                                        0x08010780   Data          40  sin_i.o(.constdata)
+    .conststring                             0x080107a8   Section      160  freertos.o(.conststring)
     .data                                    0x20000000   Section       56  freertos.o(.data)
     .data                                    0x20000038   Section        4  can.o(.data)
     HAL_RCC_CAN1_CLK_ENABLED                 0x20000038   Data           4  can.o(.data)
@@ -6049,10 +6049,10 @@ Image Symbol Table
     APBPrescTable                            0x0801023c   Data           8  system_stm32f4xx.o(.constdata)
     CRC8_TAB                                 0x08010244   Data         256  crc.o(.constdata)
     wCRC_Table                               0x08010344   Data         512  crc.o(.constdata)
-    __mathlib_zero                           0x080106c0   Data           8  qnan.o(.constdata)
-    sinTable_f32                             0x08010858   Data        2052  arm_common_tables.o(.rodata.sinTable_f32)
-    Region$$Table$$Base                      0x0801105c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0801107c   Number         0  anon$$obj.o(Region$$Table)
+    __mathlib_zero                           0x080106b0   Data           8  qnan.o(.constdata)
+    sinTable_f32                             0x08010848   Data        2052  arm_common_tables.o(.rodata.sinTable_f32)
+    Region$$Table$$Base                      0x0801104c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0801106c   Number         0  anon$$obj.o(Region$$Table)
     defaultTaskHandle                        0x20000000   Data           4  freertos.o(.data)
     IMUTaskHandle                            0x20000004   Data           4  freertos.o(.data)
     LEDTaskHandle                            0x20000008   Data           4  freertos.o(.data)
@@ -6180,9 +6180,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000113d4, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x000111a4])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000113c4, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x00011194])
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0001107c, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0001106c, Max: 0x00100000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -6855,23 +6855,23 @@ Memory Map of the image
     0x0801022c   0x00000010   Data   RO         5357    .constdata          system_stm32f4xx.o
     0x0801023c   0x00000008   Data   RO         5358    .constdata          system_stm32f4xx.o
     0x08010244   0x00000300   Data   RO         6910    .constdata          crc.o
-    0x08010544   0x00000024   Data   RO         7366    .constdata          beep.o
-    0x08010568   0x00000012   Data   RO         7794    .constdata          bmi088driver.o
-    0x0801057a   0x0000000c   Data   RO         8193    .constdata          ist8310driver.o
-    0x08010586   0x00000002   PAD
-    0x08010588   0x0000000c   Data   RO         8883    .constdata          shooter.o
-    0x08010594   0x0000000c   Data   RO         9750    .constdata          AHRS.lib(ahrs.o)
-    0x080105a0   0x00000011   Data   RO        10028    .constdata          c_w.l(__printf_flags_wp.o)
-    0x080105b1   0x00000007   PAD
-    0x080105b8   0x00000050   Data   RO        10103    .constdata          m_wm.l(acos.o)
-    0x08010608   0x00000088   Data   RO        10165    .constdata          m_wm.l(pow.o)
-    0x08010690   0x00000030   Data   RO        10340    .constdata          m_wm.l(cos_i.o)
-    0x080106c0   0x00000008   Data   RO        10382    .constdata          m_wm.l(qnan.o)
-    0x080106c8   0x000000c8   Data   RO        10385    .constdata          m_wm.l(rred.o)
-    0x08010790   0x00000028   Data   RO        10392    .constdata          m_wm.l(sin_i.o)
-    0x080107b8   0x000000a0   Data   RO          302    .conststring        freertos.o
-    0x08010858   0x00000804   Data   RO         9931    .rodata.sinTable_f32  arm_cortexM4l_math.lib(arm_common_tables.o)
-    0x0801105c   0x00000020   Data   RO        10587    Region$$Table       anon$$obj.o
+    0x08010544   0x00000014   Data   RO         7366    .constdata          beep.o
+    0x08010558   0x00000012   Data   RO         7794    .constdata          bmi088driver.o
+    0x0801056a   0x0000000c   Data   RO         8193    .constdata          ist8310driver.o
+    0x08010576   0x00000002   PAD
+    0x08010578   0x0000000c   Data   RO         8883    .constdata          shooter.o
+    0x08010584   0x0000000c   Data   RO         9750    .constdata          AHRS.lib(ahrs.o)
+    0x08010590   0x00000011   Data   RO        10028    .constdata          c_w.l(__printf_flags_wp.o)
+    0x080105a1   0x00000007   PAD
+    0x080105a8   0x00000050   Data   RO        10103    .constdata          m_wm.l(acos.o)
+    0x080105f8   0x00000088   Data   RO        10165    .constdata          m_wm.l(pow.o)
+    0x08010680   0x00000030   Data   RO        10340    .constdata          m_wm.l(cos_i.o)
+    0x080106b0   0x00000008   Data   RO        10382    .constdata          m_wm.l(qnan.o)
+    0x080106b8   0x000000c8   Data   RO        10385    .constdata          m_wm.l(rred.o)
+    0x08010780   0x00000028   Data   RO        10392    .constdata          m_wm.l(sin_i.o)
+    0x080107a8   0x000000a0   Data   RO          302    .conststring        freertos.o
+    0x08010848   0x00000804   Data   RO         9931    .rodata.sinTable_f32  arm_cortexM4l_math.lib(arm_common_tables.o)
+    0x0801104c   0x00000020   Data   RO        10587    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x0000d798, Max: 0x0001c000, ABSOLUTE, COMPRESSED[0x00000128])
@@ -6949,7 +6949,7 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        126          6          0          0          0       4752   ahrs_middleware.o
-       200         24         36          0        220       3561   beep.o
+       200         24         20          0        220       3561   beep.o
       2158         32         18         44          0     590299   bmi088driver.o
        108         28          0          0          0       9936   bmi088middleware.o
         52          4          0          8          0        827   bsp_delay.o
@@ -7020,7 +7020,7 @@ Image component sizes
        316         30          0          0         12       4281   vision.o
 
     ----------------------------------------------------------------------
-     48592       3068       1856        840      54236    1842040   Object Totals
+     48592       3068       1840        840      54236    1842040   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         66          0          2          9          2          0   (incl. Padding)
 
@@ -7145,15 +7145,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     65300       4326       4456        856      54336    1816260   Grand Totals
-     65300       4326       4456        296      54336    1816260   ELF Image Totals (compressed)
-     65300       4326       4456        296          0          0   ROM Totals
+     65300       4326       4440        856      54336    1816260   Grand Totals
+     65300       4326       4440        296      54336    1816260   ELF Image Totals (compressed)
+     65300       4326       4440        296          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                69756 (  68.12kB)
+    Total RO  Size (Code + RO Data)                69740 (  68.11kB)
     Total RW  Size (RW Data + ZI Data)             55192 (  53.90kB)
-    Total ROM Size (Code + RO Data + RW Data)      70052 (  68.41kB)
+    Total ROM Size (Code + RO Data + RW Data)      70036 (  68.39kB)
 
 ==============================================================================
 
