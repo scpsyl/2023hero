@@ -26,7 +26,7 @@
  * @retval         ·µ»Ø¿Õ
  */
 
-void AHRS_get_height(fp32* high)
+void AHRS_get_height(fp32 *high)
 {
     if (high != NULL)
     {
@@ -41,7 +41,7 @@ void AHRS_get_height(fp32* high)
  * @retval         ·µ»Ø¿Õ
  */
 
-void AHRS_get_latitude(fp32* latitude)
+void AHRS_get_latitude(fp32 *latitude)
 {
     if (latitude != NULL)
     {
@@ -58,16 +58,16 @@ void AHRS_get_latitude(fp32* latitude)
 
 fp32 AHRS_invSqrt(fp32 num)
 {
-    return 1/sqrtf(num);
+    return 1 / sqrtf(num);
 
-//    fp32 halfnum = 0.5f * num;
-//    fp32 y = num;
-//    long i = *(long*)&y;
-//    i = 0x5f3759df - (i >> 1);
-//    y = *(fp32*)&i;
-//    y = y * (1.5f - (halfnum * y * y));
-//    y = y * (1.5f - (halfnum * y * y));
-//    return y;
+    //    fp32 halfnum = 0.5f * num;
+    //    fp32 y = num;
+    //    long i = *(long*)&y;
+    //    i = 0x5f3759df - (i >> 1);
+    //    y = *(fp32*)&i;
+    //    y = y * (1.5f - (halfnum * y * y));
+    //    y = y * (1.5f - (halfnum * y * y));
+    //    return y;
 }
 
 /**

@@ -6,13 +6,10 @@ extern SPI_HandleTypeDef hspi1;
 
 void BMI088_GPIO_init(void)
 {
-
 }
 
 void BMI088_com_init(void)
 {
-
-
 }
 
 void BMI088_delay_ms(uint16_t ms)
@@ -24,9 +21,6 @@ void BMI088_delay_us(uint16_t us)
 {
     delay_us(us);
 }
-
-
-
 
 void BMI088_ACCEL_NS_L(void)
 {
@@ -52,4 +46,3 @@ uint8_t BMI088_read_write_byte(uint8_t txdata)
     HAL_SPI_TransmitReceive(&hspi1, &txdata, &rx_data, 1, 1000);
     return rx_data;
 }
-
