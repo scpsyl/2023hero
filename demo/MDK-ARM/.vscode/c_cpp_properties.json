@@ -37,8 +37,6 @@
                 "e:\\hero_master\\demo\\module\\source",
                 "e:\\hero_master\\demo\\UserMiddlewares\\source",
                 "e:\\hero_master\\demo\\SK80\\Src",
-                "e:\\hero_master\\demo\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Src",
-                "e:\\hero_master\\demo\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Src",
                 "e:\\hero_master\\demo\\Middlewares\\ST\\ARM\\DSP\\Lib"
             ],
             "defines": [

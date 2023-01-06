@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "Userfreertos.h"
 #include "judge.h"
-#include "usb_device.h"
+//#include "usb_device.h"
 #include "beep.h"
 #include "user_tof.h"
 #define EN_SHOOTER_TASK // 使能任务

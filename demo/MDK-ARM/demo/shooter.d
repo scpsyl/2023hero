@@ -62,13 +62,10 @@ demo\shooter.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 demo\shooter.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 demo\shooter.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 demo\shooter.o: ..\UI\include\judge.h
-demo\shooter.o: ../Inc/usb_device.h
-demo\shooter.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-demo\shooter.o: ../Inc/usbd_conf.h
-demo\shooter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-demo\shooter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 demo\shooter.o: ..\bsp\include\beep.h
 demo\shooter.o: ..\TOF\include\user_tof.h
 demo\shooter.o: ..\TOF\include\nlink_tofsense_frame0.h
 demo\shooter.o: ..\TOF\include\nlink_typedef.h
+demo\shooter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+demo\shooter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 demo\shooter.o: ..\TOF\include\nlink_utils.h

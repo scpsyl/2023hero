@@ -56,12 +56,6 @@ demo\userfreertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 demo\userfreertos.o: ..\UserMiddlewares\include\rc.h
 demo\userfreertos.o: ../Inc/usart.h
 demo\userfreertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-demo\userfreertos.o: ../Inc/usb_device.h
-demo\userfreertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-demo\userfreertos.o: ../Inc/usbd_conf.h
-demo\userfreertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-demo\userfreertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-demo\userfreertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 demo\userfreertos.o: ../Inc/tim.h
 demo\userfreertos.o: ..\bsp\include\beep.h
 demo\userfreertos.o: ..\bsp\include\user_can.h

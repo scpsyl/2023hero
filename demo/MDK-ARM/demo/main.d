@@ -58,10 +58,5 @@ demo\main.o: ../Inc/i2c.h
 demo\main.o: ../Inc/spi.h
 demo\main.o: ../Inc/tim.h
 demo\main.o: ../Inc/usart.h
-demo\main.o: ../Inc/usb_device.h
-demo\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-demo\main.o: ../Inc/usbd_conf.h
-demo\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-demo\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-demo\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+demo\main.o: ../Inc/usb_otg.h
 demo\main.o: ../Inc/gpio.h

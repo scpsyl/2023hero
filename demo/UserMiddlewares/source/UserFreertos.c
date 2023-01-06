@@ -1,7 +1,7 @@
 #include "UserFreertos.h"
 #include "main.h"
 #include "rc.h"
-#include "usb_device.h"
+//#include "usb_device.h"
 #include "tim.h"
 #include "beep.h"
 #include "user_can.h"
