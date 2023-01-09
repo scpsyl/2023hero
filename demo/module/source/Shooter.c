@@ -24,6 +24,7 @@ void Shooter_Init()
   shooter.rockerCtrl = false; // 初始状态键鼠控制
 
   shooter.fricSpd = 5450; // 默认摩擦轮速度5450rpm
+	shooter.n20spd = 1000;//测试参数
 
   shooter.bulletReadyFlag = true; // 弹丸默认就绪（兼容无传感器的情况）
   shooter.fricOpenFlag = false;   // 摩擦轮默认开启
@@ -67,6 +68,7 @@ void Shooter_InitPID()
   PID_Init(&shooter.triggerMotor.anglePID.outer, 0.3, 0, 0, 0, 7000);
   PID_Init(&shooter.fricMotor[0].speedPID, 60, 0, 0, 10000, 20000);
   PID_Init(&shooter.fricMotor[1].speedPID, 60, 0, 0, 10000, 20000);
+	PID_Init(&shooter.n20Motor.speedPID,200,0.055,0,10000,10000);
 }
 // 注册事件
 void Shooter_RegisterEvents()
@@ -100,6 +102,7 @@ void Shooter_RockerCtrl()
     shooter.fricOpenFlag = 1;
     shooter.fricMotor[0].targetSpeed = -(shooter.fricSpd);
     shooter.fricMotor[1].targetSpeed = shooter.fricSpd;
+	  shooter.n20Motor.targetSpeed = shooter.n20spd;
 
     Graph_SetText(&shooter.ui.fricClose, "FCS", Color_Orange, 2, 2, 100, 680, "Fric OPEN  !!!", 14, 20);
     Graph_DrawText(&shooter.ui.fricClose, Operation_Change);
@@ -109,6 +112,7 @@ void Shooter_RockerCtrl()
     shooter.fricOpenFlag = 0;
     shooter.fricMotor[0].targetSpeed = 0;
     shooter.fricMotor[1].targetSpeed = 0;
+	  shooter.n20Motor.targetSpeed = 0;
 
     Graph_SetText(&shooter.ui.fricClose, "FCS", Color_Orange, 2, 2, 100, 680, "Fric Closed!!!", 14, 20);
     Graph_DrawText(&shooter.ui.fricClose, Operation_Change);
@@ -174,6 +178,7 @@ void Shooter_StartFric_KeyCallback(KeyType key, KeyCombineType combine, KeyEvent
   {
     shooter.fricMotor[0].targetSpeed = -(shooter.fricSpd);
     shooter.fricMotor[1].targetSpeed = shooter.fricSpd;
+	  shooter.n20Motor.targetSpeed = shooter.n20spd;
 
     Graph_SetText(&shooter.ui.fricClose, "FCS", Color_Orange, 2, 2, 100, 680, "Fric OPEN  !!!", 14, 20);
     Graph_DrawText(&shooter.ui.fricClose, Operation_Change);
@@ -182,6 +187,7 @@ void Shooter_StartFric_KeyCallback(KeyType key, KeyCombineType combine, KeyEvent
   {
     shooter.fricMotor[0].targetSpeed = 0;
     shooter.fricMotor[1].targetSpeed = 0;
+	  shooter.n20Motor.targetSpeed = 0;
 
     Graph_SetText(&shooter.ui.fricClose, "FCS", Color_Orange, 2, 2, 100, 680, "Fric Closed!!!", 14, 20);
     Graph_DrawText(&shooter.ui.fricClose, Operation_Change);

@@ -59,6 +59,7 @@
 "demo\moto.o"
 "demo\super_cap.o"
 "demo\user_can.o"
+"demo\n20.o"
 "demo\ahrs_middleware.o"
 "demo\bmi088driver.o"
 "demo\bmi088middleware.o"

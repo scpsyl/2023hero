@@ -18,9 +18,11 @@ typedef struct
   bool rockerCtrl;          // 标记是否用摇杆控制
   SingleMotor triggerMotor; // 拨弹电机和摩擦轮电机
   SingleMotor fricMotor[2];
+  SingleMotor n20Motor; // 限位电机
   bool bulletReadyFlag; // 子弹到位标志
   bool fricOpenFlag;    // 摩擦轮开启标志
   int16_t fricSpd;      // 摩擦轮速度
+  int16_t n20spd;       // 限位电机转速
   int16_t lineIncHigh;  // 10m辅助线高度修正
   float distance;       // 测距 用来补偿
   struct
