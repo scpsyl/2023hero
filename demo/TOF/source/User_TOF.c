@@ -9,6 +9,7 @@ void Tof_Init()
   __HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
   __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
 }
+#ifdef TOF_EN
 // 串口1中断回调
 void USER_USART1_IRQHandler(UART_HandleTypeDef *huart)
 {
@@ -28,6 +29,7 @@ void USER_USART1_IRQHandler(UART_HandleTypeDef *huart)
     Detect_Update(DeviceID_TOF);
   }
 }
+#endif
 
 // 距离
 float Tof_GetDistance()

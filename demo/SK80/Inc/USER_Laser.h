@@ -129,4 +129,7 @@ uint8_t Laser_GetDistance(uint16_t *distance);
  */
 void Laser_Close(void);
 
+void SK80_Init(void);
+
+
 #endif

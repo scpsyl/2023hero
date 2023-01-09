@@ -1,12 +1,17 @@
-#include "USER_Laser.h"
-#include "USER_UART.h"
-
 /**
  * @file USER_Laser.c
  * @brief SK80Ч§ЖЏДњТы
  * @retval
  */
+#include "USER_Laser.h"
+#include "USER_UART.h"
+#include "detect.h"
+#include "usart.h"
 
+uint16_t sk80_rx_buff[UART1_RX_BUFFSIZE];
+uint16_t tof1_tx_buff[UART1_TX_BUFFSIZE];
+
+#define SK80_EN
 uint8_t LASER_SetPositionStart(uint8_t start)
 {
 	if (start == 0 || start == 1)
@@ -241,3 +246,30 @@ uint8_t Laser_GetDistance(uint16_t *distance)
 		}
 	}
 }
+
+void SK80_Init()
+{
+	__HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
+	__HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
+}
+#ifdef SK80_EN
+void USER_USART1_IRQHandler(UART_HandleTypeDef *huart)
+{
+	static uint8_t rxCnt = 0;
+	if (__HAL_UART_GET_FLAG(huart, UART_FLAG_RXNE))
+	{
+		__HAL_UART_CLEAR_NEFLAG(huart);
+		sk80_rx_buff[rxCnt++] = huart->Instance->DR;
+	}
+	if (__HAL_UART_GET_FLAG(huart, UART_FLAG_IDLE))
+	{
+		/* clear idle it flag avoid idle interrupt all the time */
+		__HAL_UART_CLEAR_IDLEFLAG(huart);
+		Laser_GetDistance(sk80_rx_buff);
+		rxCnt = 0;
+
+		Detect_Update(DeviceID_TOF);
+	}
+}
+
+#endif // DEBUG

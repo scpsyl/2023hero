@@ -60,3 +60,4 @@ demo\main.o: ../Inc/tim.h
 demo\main.o: ../Inc/usart.h
 demo\main.o: ../Inc/usb_otg.h
 demo\main.o: ../Inc/gpio.h
+demo\main.o: ..\SK80\Inc\USER_Laser.h

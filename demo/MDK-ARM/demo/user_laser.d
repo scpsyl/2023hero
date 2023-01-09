@@ -42,3 +42,4 @@ demo\user_laser.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
 demo\user_laser.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 demo\user_laser.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 demo\user_laser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+demo\user_laser.o: ..\UI\include\detect.h

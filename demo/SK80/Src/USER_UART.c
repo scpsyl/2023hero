@@ -12,9 +12,9 @@
 /**
  * 创建软件FIFO缓冲区数组
  */
+
 #ifdef UART1_ENABLE
-#define UART1_RX_BUFFSIZE 128
-#define UART1_TX_BUFFSIZE 128
+
 uint8_t UART1_RxBuff[UART1_RX_BUFFSIZE]; // 接收缓冲区
 uint8_t UART1_TxBuff[UART1_TX_BUFFSIZE]; // 发送缓冲区
 UART_Info UART1;

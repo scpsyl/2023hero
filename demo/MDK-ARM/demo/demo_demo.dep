@@ -1,6 +1,6 @@
 Dependencies for Project 'demo', Target 'demo': (DO NOT MODIFY !)
 F (startup_stm32f407xx.s)(0x63BB82CC)(--cpu Cortex-M4.fp -g --apcs=interwork -I..\Inc-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list startup_stm32f407xx.lst --xref -o demo\startup_stm32f407xx.o --depend demo\startup_stm32f407xx.d)
-F (../Src/main.c)(0x63BB82C7)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\main.o --omf_browse demo\main.crf --depend demo\main.d)
+F (../Src/main.c)(0x63BBB93D)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\main.o --omf_browse demo\main.crf --depend demo\main.d)
 I (../Inc/main.h)(0x63BB82C7)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x61EAC267)
 I (../Inc/stm32f4xx_hal_conf.h)(0x63BB82C6)
@@ -61,6 +61,7 @@ I (../Inc/tim.h)(0x63BB82C5)
 I (../Inc/usart.h)(0x63BB82C6)
 I (../Inc/usb_otg.h)(0x63BB82C6)
 I (../Inc/gpio.h)(0x63BB82C1)
+I (..\SK80\Inc\USER_Laser.h)(0x63BBC8AB)
 F (../Src/gpio.c)(0x63BB82C1)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\gpio.o --omf_browse demo\gpio.crf --depend demo\gpio.d)
 I (../Inc/gpio.h)(0x63BB82C1)
 I (../Inc/main.h)(0x63BB82C7)
@@ -1843,7 +1844,7 @@ I (..\IMU\include\user_imu.h)(0x62BFBB35)
 I (..\IMU\include\struct_typedef.h)(0x62BFBB35)
 I (..\math\include\slope.h)(0x62BFBB35)
 I (..\module\include\chassis.h)(0x63B666B8)
-I (..\module\include\shooter.h)(0x63BB8C4B)
+I (..\module\include\shooter.h)(0x63BB8CCC)
 I (..\UserMiddlewares\include\rc.h)(0x63B6726D)
 I (..\math\include\myQueue.h)(0x62BFBB35)
 F (..\bsp\source\Beep.c)(0x63B6F2DE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\beep.o --omf_browse demo\beep.crf --depend demo\beep.d)
@@ -1953,7 +1954,7 @@ I (..\module\include\Gimbal.h)(0x63B66752)
 I (..\math\include\Filter.h)(0x63B665B1)
 I (..\IMU\include\user_imu.h)(0x62BFBB35)
 I (..\IMU\include\struct_typedef.h)(0x62BFBB35)
-I (..\module\include\shooter.h)(0x63BB8C4B)
+I (..\module\include\shooter.h)(0x63BB8CCC)
 I (..\bsp\include\USER_CAN.h)(0x62BFBB35)
 I (../Inc/can.h)(0x63BB82C4)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61EAC24F)
@@ -2099,7 +2100,7 @@ I (..\math\include\slope.h)(0x62BFBB35)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
 I (..\UI\include\judge.h)(0x62BFBB35)
 I (..\UI\include\graphics.h)(0x63B6F655)
-I (..\module\include\Shooter.h)(0x63BB8C4B)
+I (..\module\include\Shooter.h)(0x63BB8CCC)
 I (..\module\include\Gimbal.h)(0x63B66752)
 I (..\math\include\Filter.h)(0x63B665B1)
 I (..\IMU\include\user_imu.h)(0x62BFBB35)
@@ -2558,7 +2559,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
-F (..\TOF\source\User_TOF.c)(0x63B67440)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_tof.o --omf_browse demo\user_tof.crf --depend demo\user_tof.d)
+F (..\TOF\source\User_TOF.c)(0x63BBB93B)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_tof.o --omf_browse demo\user_tof.crf --depend demo\user_tof.d)
 I (..\TOF\include\User_TOF.h)(0x62BFBB35)
 I (../Inc/main.h)(0x63BB82C7)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x61EAC267)
@@ -2679,7 +2680,7 @@ I (..\IMU\include\user_imu.h)(0x62BFBB35)
 I (..\IMU\include\struct_typedef.h)(0x62BFBB35)
 I (..\bsp\include\super_cap.h)(0x62BFBB35)
 I (..\UI\include\detect.h)(0x62BFBB35)
-I (..\module\include\shooter.h)(0x63BB8C4B)
+I (..\module\include\shooter.h)(0x63BB8CCC)
 F (..\module\source\Gimbal.c)(0x63B6A888)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\gimbal.o --omf_browse demo\gimbal.crf --depend demo\gimbal.d)
 I (..\module\include\Gimbal.h)(0x63B66752)
 I (..\bsp\include\Moto.h)(0x63B67319)
@@ -2752,7 +2753,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61EAC24F)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61EAC24F)
 I (..\bsp\include\beep.h)(0x63B674EE)
 F (..\module\source\Shooter.c)(0x63BB8BA7)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\shooter.o --omf_browse demo\shooter.crf --depend demo\shooter.d)
-I (..\module\include\Shooter.h)(0x63BB8C4B)
+I (..\module\include\Shooter.h)(0x63BB8CCC)
 I (..\bsp\include\Moto.h)(0x63B67319)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
 I (..\math\include\PID.h)(0x63B666B8)
@@ -3012,10 +3013,10 @@ I (..\bsp\include\user_can.h)(0x62BFBB35)
 I (../Inc/can.h)(0x63BB82C4)
 I (..\IMU\include\user_imu.h)(0x62BFBB35)
 I (..\IMU\include\struct_typedef.h)(0x62BFBB35)
-F (..\SK80\Src\USER_Laser.c)(0x63B68CDF)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_laser.o --omf_browse demo\user_laser.crf --depend demo\user_laser.d)
-I (..\SK80\Inc\USER_Laser.h)(0x63B68D73)
+F (..\SK80\Src\USER_Laser.c)(0x63BBC88D)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_laser.o --omf_browse demo\user_laser.crf --depend demo\user_laser.d)
+I (..\SK80\Inc\USER_Laser.h)(0x63BBC8AB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
-I (..\SK80\Inc\USER_UART.h)(0x63B68D62)
+I (..\SK80\Inc\USER_UART.h)(0x63BBC831)
 I (../Inc/usart.h)(0x63BB82C6)
 I (../Inc/main.h)(0x63BB82C7)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x61EAC267)
@@ -3055,8 +3056,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h)(0x61EAC267)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x61EAC267)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x61EAC267)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
-F (..\SK80\Src\USER_UART.c)(0x63B68CDC)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_uart.o --omf_browse demo\user_uart.crf --depend demo\user_uart.d)
-I (..\SK80\Inc\USER_UART.h)(0x63B68D62)
+I (..\UI\include\detect.h)(0x62BFBB35)
+F (..\SK80\Src\USER_UART.c)(0x63BBC831)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/ARM/DSP/Inc -I..\math\include -I..\UI\include -I..\bsp\include -I..\IMU\include -I..\module\include -I..\SK80\Inc -I..\UserMiddlewares\include -I..\TOF\include-I e:\hero_master\demo\MDK-ARM\RTE-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Users\¡ıÍ≈…º2020\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DARM_MATH_CM4 -D__FPU_USED="1U" -D__FPU_PRESENT="1U" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o demo\user_uart.o --omf_browse demo\user_uart.crf --depend demo\user_uart.d)
+I (..\SK80\Inc\USER_UART.h)(0x63BBC831)
 I (../Inc/usart.h)(0x63BB82C6)
 I (../Inc/main.h)(0x63BB82C7)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x61EAC267)

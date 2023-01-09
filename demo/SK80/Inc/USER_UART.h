@@ -2,7 +2,8 @@
 #define _USER_UART_H_
 #include "usart.h"
 #include <stdbool.h>
-
+#define UART1_RX_BUFFSIZE 128
+#define UART1_TX_BUFFSIZE 128
 typedef struct
 {
 	UART_HandleTypeDef huart;
